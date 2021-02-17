@@ -50,7 +50,7 @@ header {
 }
 
 .table {
-    margin-top: 35px;
+    margin-top: 50px;
     display: flex;
     flex-grow: 1;
     flex-direction: row;
@@ -60,7 +60,7 @@ header {
 }
 
 .table > div {
-    
+    transition: 0.25s;
     width: 160px;
     height: 140px;
     background-color: #FFF;
@@ -88,6 +88,57 @@ header {
     transition: 0.5s;
 }
 
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: -40px;
+}
+
+.st {
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+.cb {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.media {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.media, a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+    
+}
 
 /* CSS EFFECTS */
 
@@ -140,3 +191,40 @@ header:hover {
     font-size: 48px;
 }
 
+.table > div:hover {
+    transition: 0.25s;
+    width: 160px;
+    height: 140px;
+    background-color: #c3c3c3;
+    text-align: center;
+    align-self: center;
+    color: #000;
+    padding-top: 35px;
+    font-size: 70px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.media:nth-child(1):hover{
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 35px;
+    color: #000000;
+    background-color: rgb(36, 36, 36)
+}
+
+.media:nth-child(2):hover{
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 35px;
+    color: #000000;
+    background-color:rgb(10, 102, 194);
+}
+
+.media:nth-child(3):hover{
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 35px;
+    color: #000000;
+    background-color: rgb(255, 69, 0);
+}
