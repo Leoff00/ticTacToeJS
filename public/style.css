@@ -143,13 +143,11 @@ header {
     text-decoration: none;
     font-size: 30px;
     color: #000000;
-    
 }
 
 footer {
     margin-top: -60px;
     vertical-align: top;
-
 }
 
 .tc {
@@ -170,8 +168,8 @@ header:hover {
     flex-direction: row;
     width: 380px;
     border: 2px solid black;
-    font-size: 42px;
-    padding: 2px 0px;
+    font-size: 40px;
+    padding: 0px 20px;
     margin-top: 23px;
     margin-bottom: 23px;
     color: #000;

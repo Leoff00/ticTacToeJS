@@ -100,24 +100,16 @@ const game = {
     },
 
     drawGame() {
-        for (let i in this.board) {
-            if(this.board[i] == 'X' || this.board[i] == 'O') {
-                console.log('OK');
-            }
+        this.board.every(arr => {
+            console.log;
 
-            else {
-                console.log('aa');
-            }
-            
-        }
+        })
     }
-
 }
-
 //starting functions
 
-game.draw()
-game.makePlay()
-game.restart()
-game.verifyWin()
-game.drawGame()
+game.draw();
+game.makePlay();
+game.restart();
+game.verifyWin();
+game.drawGame();
